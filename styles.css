@@ -1,0 +1,203 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+h1{
+	color: white;
+	font-family: "Kunstler Script";
+	font-size: 100px;
+}
+
+.container-fluid{
+	background-color: red;
+	height: 2000px;
+	padding: 0;
+}
+
+.nav{
+	margin-right: 20px;
+}
+
+a{
+	color: white!important;
+}
+
+.section-one{
+	height: 600px;
+	background-image: url(img/prfbg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.section-one .sectone-container{
+		height: 600px;
+		background-color: black;
+   		position:relative;
+   		background: rgba(000, 000, 000, 0.5);
+   		overflow: hidden;
+}
+.text{
+	font-size: 120px;
+	color: white;
+	font-family: "Kunstler Script";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.navbar{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.section-two{
+	height: 500px;
+	position: relative;
+	background-color: #9fdbc7;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+/*.section-two .sectwocontainer{
+		height: 500px;
+		background-color: black;
+   		position:relative;
+   		background: rgba(000, 000, 000, 0.5);
+   		overflow: hidden;
+}*/
+
+.section-two .row{
+	position: relative;
+	margin: 5% 0 5% 0;
+	width: 80%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.section-two .row .col-sm-6 img{
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.section-two .row p{
+	text-align: left;
+	color: white;
+}
+
+hr{
+	border: 1px solid rgba(0,0,0, 0.5);
+}
+
+.title{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin: 50px 0 0 0;
+	font-size: 36px;
+
+}
+
+
+.description{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin: 50px 0 50px 0;
+	font-size: 16px;
+}
+
+/*======================================*/
+
+.section-three{
+	position: relative;
+	overflow: hidden;
+	background-color: 	#fb7d7d;
+	padding: 50px;
+}
+
+
+.section-three .row{
+	background: rgba(000, 000, 000, 0.5);
+	position: relative;
+	width: 100%;
+	left: 50%;
+	transform: translatex(-50%);
+	padding: 10px;
+	margin: 0;
+}
+
+.section-three .row .col-md-3{
+	position: relative;
+	padding: 10px;
+}
+
+.section-three .row .col-md-3 .description{
+	color: white;
+}
+
+.section-three .row .col-md-3 img{
+	width: 100%;
+}
+
+.section-three .row .col-md-3:hover{
+    background-color:#9DACBF;
+    color:gray;
+}
+
+.section-three .row .col-md-3 span:hover{
+    color: black;
+
+}
+/*======================================*/
+
+.section-four{
+	position: relative;
+	overflow: hidden;
+	background-color: yellow;
+}
+
+.section-four .row{
+	position: relative;
+	width: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 5% 0 10% 0;
+	border: 1px solid black;
+}
+
+.section-four .row img{
+	width: 100%;
+}
+
+.section-four .row .col-md-12{
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*======================================*/
+
+.section-five{
+	position: relative;
+	overflow: hidden;
+	background-color: lightblue;
+}
+
+.section-five .row{
+	position: relative;
+	width: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 50% 0 10% 0;
+}
+
+.section-five .row img{
+	width: 100%;
+	box-shadow: 10px 10px 10px 1px;
+}
+
+.section-five .row .col-md-3 p{
+	text-align: center;
+	margin-top: 20px;
+}
