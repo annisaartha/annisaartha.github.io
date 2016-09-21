@@ -1,0 +1,214 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+h1{
+	color: white;
+	font-family: "Kunstler Script";
+	font-size: 100px;
+}
+
+h3{
+	color: white;
+	font-family: "Kunstler Script";
+	font-size: 50px;
+}
+
+.container-fluid{
+	background-color: black;
+	height: 2000px;
+	padding: 0;
+}
+
+a{
+	color: white!important;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.section-one{
+	height: 600px;
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.section-one .sectone-container{
+		height: 600px;
+   		position:relative;
+   		background: rgba(000, 000, 000, 0.5);
+   		overflow: hidden;
+}
+.text{
+	font-size: 120px;
+	color: white;
+	font-family: "Kunstler Script";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.navbar{
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 50px;
+	margin: 0;
+
+}
+
+.navbar ul {
+	float: right !important;
+}
+
+li{
+	list-style: none;
+	margin-left: 10px;
+	float: left;
+	margin: 10px 20px 10px 0;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.section-two{
+	height: 500px;
+	position: relative;
+	background-color: #9fdbc7;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.section-two table{
+	position: relative;
+	margin: 5% 0 5% 0;
+	width: 80%;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.section-two table td img{
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.section-two table p{
+	text-align: left;
+	color: white;
+	width: 80%;
+}
+
+hr{
+	border: 1px solid rgba(0,0,0, 0.5);
+}
+
+.title{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin: 50px 0 0 0;
+	font-size: 36px;
+
+}
+
+
+.description{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin: 50px 0 50px 0;
+	font-size: 16px;
+}
+
+/*======================================*/
+
+.section-three{
+	position: relative;
+	overflow: hidden;
+	background-color: 	#fb7d7d;
+	padding: 50px;
+}
+
+
+.section-three table{
+	background: rgba(000, 000, 000, 0.5);
+	position: relative;
+	width: 100%;
+	left: 50%;
+	transform: translatex(-50%);
+	padding: 10px;
+	margin: 0;
+}
+
+.section-three table td{
+	position: relative;
+	padding: 10px;
+}
+
+.section-three table td .description{
+	color: white;
+}
+
+.section-three table td img{
+	width: 100%;
+}
+
+.section-three table td:hover{
+    background-color:#9DACBF;
+    color:gray;
+}
+
+.section-three table td span:hover{
+    color: black;
+
+}
+
+.formcontainer{
+		background-color: #1C1C1C;
+		padding:30px 0 30px 0;
+		border: 1px solid black;
+		margin-top: 30px;
+		padding-left: 25%;
+
+	}
+.formcontainer label{
+	color: white;
+	vertical-align: top;
+}
+
+/*======================================*/
+
+/*======================================*/
+
+.section-four{
+	position: relative;
+	overflow: hidden;
+	background-color: lightblue;
+}
+
+.section-four table{
+	position: relative;
+	width: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 5% 0 5% 0;
+}
+
+.section-four table td {
+	padding: 0;
+}
+
+
+/*======================================*/
+
+.footer{
+	background-color: black;
+	height: auto;
+	padding: 2% 0 2% ;
+}
